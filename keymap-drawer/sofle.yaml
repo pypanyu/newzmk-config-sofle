@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: sofle/rev1}
 layers:
   Qwery:
-  - {t: '`', h: '~', s: '~'}
+  - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -13,8 +13,8 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '=', h: +, s: +}
-  - $$mdi:keyboard-esc$$
+  - {t: \, h: '|', s: '|'}
+  - {t: '`', h: '~', s: '~'}
   - Q
   - W
   - E
@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - {t: ']', s: '}'}
+  - {t: '=', h: +, s: +}
   - $$mdi:apple-keyboard-caps$$
   - {t: A, s: '$$mdi:apple-keyboard-command$$'}
   - {t: S, s: '$$mdi:apple-keyboard-option$$'}
@@ -175,12 +175,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - '~'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '`', s: '~'}
+  - {t: '=', h: +, s: +}
+  - {t: '''', h: '"', s: '"'}
+  - {t: \, h: '|', s: '|'}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -458,3 +458,19 @@ layers:
 combos:
 - p: [13, 14]
   k: $$mdi:keyboard-esc$$
+- p: [17, 16]
+  k: {t: '[', s: '{'}
+- p: [21, 22]
+  k: {t: ']', s: '}'}
+- p: [29, 30]
+  k: (
+- p: [34, 35]
+  k: )
+- p: [42, 43]
+  k: '{'
+- p: [47, 48]
+  k: '}'
+- p: [18, 20]
+  k: {t: \, s: '|'}
+- p: [31, 33]
+  k: '|'
