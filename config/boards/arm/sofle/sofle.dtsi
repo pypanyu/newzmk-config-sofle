@@ -29,7 +29,7 @@
 	left_encoder: encoder_left {
 		compatible = "alps,ec11";
 		label = "LEFT_ENCODER";
-		steps = <24>;
+		resolution = <4>;
 		status = "disabled";
 	    a-gpios = <&gpio1 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 	    b-gpios = <&gpio1 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
@@ -38,7 +38,6 @@
     sensors {
 		compatible = "zmk,keymap-sensors";
 		sensors = <&left_encoder>;
-        triggers-per-rotation = <10>;
 	};
 
     EXT_POWER {
