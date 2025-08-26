@@ -14,7 +14,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: \, h: '|', s: '|'}
-  - {t: '`', h: '~', s: '~'}
+  - {t: '$$mdi:keyboard-tab$$', h: '~'}
   - Q
   - W
   - E
@@ -39,7 +39,7 @@ layers:
   - {t: K, s: '$$mdi:apple-keyboard-control$$'}
   - {t: L, s: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: ':', s: ':'}
-  - {t: '''', h: '"', s: '"'}
+  - RETURN
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
